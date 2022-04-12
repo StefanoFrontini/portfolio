@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: var(--white);
+    background: var(--black);
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+}
+
+.footer:before {
+    background: var(--gradient);
+    top: 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+

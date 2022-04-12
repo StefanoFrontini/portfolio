@@ -1,0 +1,30 @@
+/* .about h2 {
+    padding-top: 4rem;
+} */
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    background: var(--text-emphasized);
+    color: var(--white)
+
+}
+.about p {
+    /* color: var(--text-muted); */
+    line-height: 1.7;
+}
+.about_container{
+    max-width: 1200px;
+}
+
+@media screen and (min-width: 800px) {
+    .about p{
+        max-width: 500px;
+
+
+    }
+}
+

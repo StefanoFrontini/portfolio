@@ -1,0 +1,26 @@
+.contact {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+@media screen and (min-width: 400px) {
+    .contact {
+        gap: 4rem;
+        min-height: calc(100vh - 10rem);
+    }
+}
+@media screen and (min-width: 800px) {
+    .contact {
+        gap: 10rem;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .contact {
+        gap: 0rem;
+    }
+}
+
