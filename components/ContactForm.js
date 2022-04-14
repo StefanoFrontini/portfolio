@@ -17,12 +17,7 @@ const ContactForm = () => {
         <label htmlFor="youremail">Your Email:</label>
         <input type="email" name="email" id="youremail" />
         <label htmlFor="yourmessage">Message:</label>
-        <textarea
-          name="message"
-          id="yourmessage"
-          cols="30"
-          rows="10"
-        ></textarea>
+        <textarea name="message" id="yourmessage" cols="30" rows="5"></textarea>
 
         <button type="submit" className={styles.btn}>
           Send

@@ -1,26 +1,54 @@
 .contact {
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    justify-content: flex-end;
+
+
+
+
 
 }
 
+.contact h2{
+    font-size: 2rem;
+}
+
+
+
+
 @media screen and (min-width: 400px) {
     .contact {
-        gap: 4rem;
-        min-height: calc(100vh - 10rem);
+        min-height: calc(100vh - 6rem);
+
+
+
+    }
+    .contact h2 {
+        font-size: clamp(2.8rem, 3.2rem, 4rem);
+    }
+}
+@media screen and (min-width: 700px) {
+    .contact {
+        gap: 2rem;
+
+
+
     }
 }
 @media screen and (min-width: 800px) {
     .contact {
-        gap: 10rem;
+        min-height: calc(100vh - 4rem);
+        gap: 12rem;
+
     }
 }
 @media screen and (min-width: 1000px) {
     .contact {
+        margin-top: 4rem;
         gap: 0rem;
+
+
+
     }
 }
 
