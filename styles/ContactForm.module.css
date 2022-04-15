@@ -5,6 +5,9 @@
     justify-content: center;
     width: 100%;
 
+
+
+
 }
 .contact_form{
     display: flex;
@@ -13,7 +16,8 @@
     justify-content: center;
     width: 90vw;
     max-width: 500px;
-    ;
+
+
 }
 .contact_form input {
     margin-bottom: 1rem;

@@ -6,9 +6,9 @@ const Contact = () => {
     <>
       <section id="contact" className={styles.contact}>
         <h2>CONTACT ME</h2>
-        <div className={styles.contact_container}>
-          <ContactForm />
-        </div>
+
+        <ContactForm />
+
         <Particles />
       </section>
     </>

@@ -1,19 +1,39 @@
 .particles{
     position: relative;
     width: 100%;
+    height: 110px;
+}
+#canvas1 {
+    position: absolute;
+    background: var(--white);
+    bottom: 0;
+    left: 0;
+    width: 100%;
     height: 100px;
 
 
-
-
-
-
 }
-
 @media screen and (min-width: 400px) {
     .particles {
         height: 150px;
 
+
+    }
+    #canvas1{
+        height: 140px;
+
+    }
+
+}
+@media screen and (min-width: 800px) {
+    .particles {
+        height: 200px;
+
+
+    }
+
+    #canvas1 {
+        height: 200px;
 
     }
 
@@ -21,7 +41,7 @@
 
 @media screen and (min-width: 1000px) {
     .particles {
-        height: 300px;
+        height: 400px;
 
 
     }
@@ -29,12 +49,3 @@
 }
 
 
-#canvas1 {
-    position: absolute;
-    background: var(--white);
-    bottom: 0;
-    left:0;
-    width: 100%;
-
-
-}
